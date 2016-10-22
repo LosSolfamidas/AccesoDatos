@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 01-abr-2016 3:09:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="Modelo.Coches" table="COCHES" schema="LYNCHANIANO">
+        <id name="codcoche" type="string">
+            <column name="CODCOCHE" length="3" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="NOMBRE" length="15" />
+        </property>
+        <property name="modelo" type="string">
+            <column name="MODELO" length="10" />
+        </property>
+        <set name="distribucions" table="DISTRIBUCION" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODCOCHE" length="3" not-null="true" />
+            </key>
+            <one-to-many class="Modelo.Distribucion" />
+        </set>
+    </class>
+</hibernate-mapping>

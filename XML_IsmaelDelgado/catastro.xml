@@ -1,0 +1,33 @@
+<viviendas>
+    <vivienda>
+        <ID_Vivienda>1</ID_Vivienda>
+        <Calle>UNO</Calle>
+        <Numero>1</Numero>
+        <Tipo>PISO</Tipo>
+        <habitantes>
+            <persona>
+                <ID_Persona>1</ID_Persona>
+                <Nombre>ISMAEL</Nombre>
+                <Apellidos>DELGADO</Apellidos>
+                <AnyoNacimiento>1978</AnyoNacimiento>
+                <NumTelefono>645767085</NumTelefono>
+            </persona>
+        </habitantes>
+    </vivienda>
+
+    <vivienda>
+        <ID_Vivienda>2</ID_Vivienda>
+        <Calle>DOS</Calle>
+        <Numero>2</Numero>
+        <Tipo>CASA</Tipo>
+        <habitantes>
+            <persona>
+                <ID_Persona>4</ID_Persona>
+                <Nombre>DAVID</Nombre>
+                <Apellidos>HERVAS</Apellidos>
+                <AnyoNacimiento>1977</AnyoNacimiento>
+                <NumTelefono>645767678</NumTelefono>
+            </persona>
+        </habitantes>
+    </vivienda>
+</viviendas>

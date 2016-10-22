@@ -1,0 +1,37 @@
+<personas>
+    
+    <persona>
+        <ID_Persona>1</ID_Persona>
+        <Nombre>ISMAEL</Nombre>
+        <Apellidos>DELGADO</Apellidos>
+        <AnyoNacimiento>1978</AnyoNacimiento>
+        <NumTelefono>645767085</NumTelefono>
+        <Registrada>true</Registrada>
+    </persona>
+    <persona>
+        <ID_Persona>2</ID_Persona>
+        <Nombre>ANA</Nombre>
+        <Apellidos>PASCUAL</Apellidos>
+        <AnyoNacimiento>1977</AnyoNacimiento>
+        <NumTelefono>645767086</NumTelefono>
+        <Registrada>false</Registrada>
+    </persona>
+    <persona>
+        <ID_Persona>3</ID_Persona>
+        <Nombre>OSCAR</Nombre>
+        <Apellidos>MENESES</Apellidos>
+        <AnyoNacimiento>1975</AnyoNacimiento>
+        <NumTelefono>645767087</NumTelefono>
+        <Registrada>false</Registrada>
+    </persona>
+    <persona>
+        <ID_Persona>4</ID_Persona>
+        <Nombre>DAVID</Nombre>
+        <Apellidos>HERVAS</Apellidos>
+        <AnyoNacimiento>1977</AnyoNacimiento>
+        <NumTelefono>645767678</NumTelefono>
+        <Registrada>true</Registrada>
+   </persona>
+    
+</personas>
+   

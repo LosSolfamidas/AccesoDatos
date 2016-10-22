@@ -1,0 +1,12 @@
+<habitantes>
+    
+    <persona>
+        <ID_Persona>001</ID_Persona>
+        <Nombre>Ismael</Nombre>
+        <Apellidos>Delgado</Apellidos>
+        <AnyoNacimiento>1978</AnyoNacimiento>
+        <NumTelefono>645767085</NumTelefono>
+    </persona>
+    
+</habitantes>
+   

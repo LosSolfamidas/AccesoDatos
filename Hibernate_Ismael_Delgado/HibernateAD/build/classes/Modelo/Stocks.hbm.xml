@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 01-abr-2016 3:09:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="Modelo.Stocks" table="STOCKS" schema="LYNCHANIANO">
+        <composite-id name="id" class="Modelo.StocksId">
+            <key-property name="idCocesionario" type="string">
+                <column name="ID_COCESIONARIO" length="4" />
+            </key-property>
+            <key-property name="nombreConcesionario" type="string">
+                <column name="NOMBRE_CONCESIONARIO" length="15" />
+            </key-property>
+            <key-property name="codcoche" type="string">
+                <column name="CODCOCHE" length="3" />
+            </key-property>
+            <key-property name="nombreCoche" type="string">
+                <column name="NOMBRE_COCHE" length="15" />
+            </key-property>
+            <key-property name="stock" type="java.lang.Short">
+                <column name="STOCK" precision="3" scale="0" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>
